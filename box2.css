@@ -1,0 +1,89 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fdf1ea;
+    border-bottom: 3px solid #1a1a1a;
+}
+
+header h1 {
+    color: #c1440e;
+    font-size: 26px;
+}
+
+header div:nth-of-type(1) {
+    display: flex;
+    gap: 30px;
+}
+
+header div:nth-of-type(1) a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+header div:nth-of-type(1) a:first-child {
+    color: #c1440e;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+header div:nth-of-type(2) {
+    display: flex;
+    gap: 20px;
+}
+
+header div:nth-of-type(2) a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+body > h1 {
+    padding: 30px 40px 20px 40px;
+    font-size: 26px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 40px;
+}
+
+footer h2 {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    gap: 25px;
+    padding: 15px 10px;
+}
+
+.footer p {
+    color: #6b6b6b;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer > div:last-child p {
+    color: #6b6b6b;
+    font-size: 14px;
+}
