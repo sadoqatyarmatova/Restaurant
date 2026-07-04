@@ -58,15 +58,15 @@ body > h1 {
 }
 
 #box1 {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 24px;
     padding: 0 40px 40px 40px;
 }
 
 .card {
     position: relative;
-    width: 340px;
+    width: 100%;
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
