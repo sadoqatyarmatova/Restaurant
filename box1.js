@@ -30,7 +30,7 @@ async function get() {
              </div>
                  <p class="card-desc">${e.descriptionProduct}</p>
              <div class="card-price-row">
-                <h5 class="card-price">${e.priceProduct}</h5>
+                <h5 class="card-price"> $ ${e.priceProduct}</h5>
                 <button class="add-btn">Add</button>
               </div>
             </div>
