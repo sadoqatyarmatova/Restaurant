@@ -26,7 +26,7 @@ async function get() {
 `}
              <div class="card-row">
                 <h3 class="card-name">${e.nameProduct}</h3>
-                <p class="card-time">${e.cookingTime}</p>
+                <p class="card-time">${e.cookingTime} - ${e.cookingTime + 10} min</p>
              </div>
                  <p class="card-desc">${e.descriptionProduct}</p>
              <div class="card-price-row">
